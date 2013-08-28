@@ -1029,7 +1029,7 @@ exit:
 	return err;
 }
 
-int main(int argc, char *argv[])
+int f2fs_format_main(int argc, char *argv[])
 {
 	MSG(0, "\n\tF2FS-tools: mkfs.f2fs Ver: %s (%s) [modified by Motorola for ARM and to reserve space]\n\n",
 				F2FS_TOOLS_VERSION,
